@@ -1,5 +1,5 @@
 {
-	"name": "web-template",
+	"name": "mass-spring-sim-web",
 	"version": "1.0.0",
 	"description": "tempalte for web based projects",
 	"main": "index.js",
@@ -14,6 +14,7 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/core": "^7.18.9",
+		"@types/three": "^0.143.1",
 		"@typescript-eslint/eslint-plugin": "^5.31.0",
 		"@typescript-eslint/parser": "^5.31.0",
 		"babel-loader": "^8.2.5",
@@ -28,5 +29,8 @@
 		"webpack": "^5.74.0",
 		"webpack-cli": "^4.10.0",
 		"webpack-dev-server": "^4.9.3"
+	},
+	"dependencies": {
+		"three": "^0.143.0"
 	}
 }
